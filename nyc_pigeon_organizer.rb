@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
         deet.each do |name|
             pigeon_names[name] = {}
             pigeon_names[name][category] = []
-            pigeon_names[name][category] << deet
+            pigeon_names[name][category] << subcat.to_s
             binding.pry
         end
       end
