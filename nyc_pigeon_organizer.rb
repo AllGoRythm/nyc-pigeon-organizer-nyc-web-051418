@@ -1,7 +1,13 @@
 require "pry"
 def nyc_pigeon_organizer(data)
 
-  pigeon_list = {}
+  pigeon_list = {
+#     "Theo" => {
+#   :color => ["purple", "grey"],
+#   :gender => ["male"],
+#   :lives => ["Subway"]
+# }
+  }
 
   data.each do |category, info|
 
@@ -9,7 +15,7 @@ def nyc_pigeon_organizer(data)
 
       unless pigeon_list[name]
 
-        pigeon_list = name.join(", ")
+        pigeon_list = name.join(", ").split
         binding.pry
 
       end
