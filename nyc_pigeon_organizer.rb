@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
 
       unless pigeon_list[name]
 
-        pigeon_list[:name] = "cool"
+        pigeon_list[name] = "cool"
         binding.pry
 
       end
