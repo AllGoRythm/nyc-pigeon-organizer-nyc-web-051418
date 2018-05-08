@@ -5,9 +5,13 @@ def nyc_pigeon_organizer(data)
 
     data.each do |category, info|
       info.each do |sub_cat, deet|
-        if deet
+
+        if sub_cat == :gender
+
           deet
+
           binding.pry
+
         end
 
       end
