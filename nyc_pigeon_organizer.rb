@@ -5,9 +5,9 @@ def nyc_pigeon_organizer(data)
   solo_birds = bag_of_names.flatten.uniq
 
   data.each do |category, info|
-    
-    bag_of_names << info
 
+    bag_of_names << info
+    binding.pry
   end
 
 end
