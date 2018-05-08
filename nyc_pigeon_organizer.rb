@@ -8,8 +8,8 @@ def nyc_pigeon_organizer(data)
 
         if data[:gender][deet]
           deet.select do |e|
-            pigeon_names["e"] << {subcat}
-            binding.pru
+            pigeon_names << e
+            binding.pry
           end
         end
 
