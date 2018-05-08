@@ -1,15 +1,16 @@
 require "pry"
 def nyc_pigeon_organizer(data)
 
-  new_struct = {}
+  pigeon_list = {}
 
   data.each do |category, info|
 
     info.each do |sub_cat, name|
 
-      unless new_struct[name]
+      unless pigeon_list[name]
 
-        
+        pigeon_list = name
+        binding.pry
 
       end
 
