@@ -1,7 +1,7 @@
 require "pry"
 def nyc_pigeon_organizer(data)
 
-    bag_of_names = ""
+    bag_of_names = []
 
     data.each do |category, info|
       info.each do |color, name|
