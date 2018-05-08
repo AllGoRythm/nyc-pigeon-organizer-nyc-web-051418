@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       end
     end
     solo_birds = bag_of_names.flatten.uniq
-    just_birds = solo_birds.join
+    just_birds = solo_birds.join(" ")
     binding.pry
 
 end
