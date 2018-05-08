@@ -7,9 +7,9 @@ def nyc_pigeon_organizer(data)
       info.each do |sub_cat, deet|
         deet.each do |name|
             pigeon_names[name] = {}
-            binding.pry
         end
         pigeon_names[name] = {sub_cat}
+        binding.pry
 
       end
     end
