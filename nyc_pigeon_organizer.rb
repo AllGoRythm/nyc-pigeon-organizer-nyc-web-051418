@@ -7,7 +7,9 @@ def nyc_pigeon_organizer(data)
 
     info.each do |sub_cat, name|
 
-      binding.pry
+      if name
+
+      end
 
     end
 
