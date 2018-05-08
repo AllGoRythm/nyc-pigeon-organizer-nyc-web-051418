@@ -7,7 +7,11 @@ def nyc_pigeon_organizer(data)
       info.each do |sub_cat, deet|
         deet.each do |name|
 
-          binding.pry
+          unless pigeon_names[name]
+
+            pigeon_names[name]
+            binding.pry
+          end
 
         end
       end
