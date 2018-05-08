@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
         deet.each do |name|
             pigeon_names[name] = {}
         end
-        pigeon_names[name] = {sub_cat}
+        pigeon_names[name] = {:sub_cat}
         binding.pry
 
       end
