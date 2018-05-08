@@ -3,20 +3,13 @@ def nyc_pigeon_organizer(data)
 
   pigeon_list = {}
 
-  data.each do |category, info|
-
-    info.each do |sub_cat, name|
-
-      unless pigeon_list[name]
-
-        pigeon_list[name] = "cool"
+    data.each do |category, info|
+      info.each do |color, name|
+        bag_of_names << name
+        solo_birds = bag_of_names.flatten.uniq
         binding.pry
-
       end
-
     end
-
-  end
 
 
 end
