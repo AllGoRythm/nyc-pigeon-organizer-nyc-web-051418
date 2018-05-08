@@ -5,13 +5,10 @@ def nyc_pigeon_organizer(data)
 
     data.each do |category, info|
       info.each do |color, name|
-        bag_of_names << name
+        binding.pry
 
       end
     end
-    solo_birds = bag_of_names.flatten.uniq
-    just_birds = solo_birds.join(" ")
-    binding.pry
 
 end
 
