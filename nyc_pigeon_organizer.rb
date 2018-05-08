@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
 
     info.each do |colors, names|
 
-      if names.is_a?(String)
+      if names
         all_names << names
         binding.pry
       end
