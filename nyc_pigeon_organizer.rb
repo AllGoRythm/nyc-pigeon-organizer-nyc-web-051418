@@ -9,6 +9,8 @@ def nyc_pigeon_organizer(data)
             pigeon_names[name] = {}
             binding.pry
         end
+        pigeon_names[name] = {sub_cat}
+
       end
     end
 
