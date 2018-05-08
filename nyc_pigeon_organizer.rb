@@ -8,9 +8,7 @@ def nyc_pigeon_organizer(data)
 
     info.each do |colors, names|
 
-      names.each do |name|
-        bag_of_names << name
-      end
+      binding.pry
 
     end
 
