@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
 
       unless pigeon_list[name]
 
-        pigeon_list = name.split
+        pigeon_list = name.join(", ").split
         binding.pry
 
       end
