@@ -7,7 +7,9 @@ def nyc_pigeon_organizer(data)
 
     info.each do |sub_cat, name|
 
-      if name
+      unless new_struct[name]
+
+        
 
       end
 
