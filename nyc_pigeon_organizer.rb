@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     info.each do |colors, names|
 
       if names
-        all_names << names
+        bag_of_names << names
       end
 
     end
