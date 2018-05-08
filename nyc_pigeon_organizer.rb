@@ -9,11 +9,11 @@ def nyc_pigeon_organizer(data)
 
       if names
         all_names << names
-        binding.pry
       end
 
     end
 
   end
-
+all_names
+binding.pry
 end
