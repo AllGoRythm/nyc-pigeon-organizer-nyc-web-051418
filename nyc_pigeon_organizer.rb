@@ -1,7 +1,8 @@
 require "pry"
 def nyc_pigeon_organizer(data)
 
-  all_names = []
+  bag_of_names = []
+  solo_birds = bag_of_names.flatten.uniq
 
   data.each do |category, info|
 
