@@ -6,12 +6,11 @@ def nyc_pigeon_organizer(data)
     data.each do |category, info|
       info.each do |sub_cat, deet|
 
-        if data[:gender][deet]
+
           deet.select do |e|
             pigeon_names << e
             binding.pry
           end
-        end
 
       end
     end
