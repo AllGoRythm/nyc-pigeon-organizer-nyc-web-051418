@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
 
           unless pigeon_names[name]
 
-            pigeon_names[name]
+            pigeon_names[name] = name
             binding.pry
           end
 
