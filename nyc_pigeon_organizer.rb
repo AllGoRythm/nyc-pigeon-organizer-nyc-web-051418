@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       info.each do |sub_cat, deet|
         deet.collect do |name|
           pigeon_names << name
-          binding.pru
+          binding.pry
         end
       end
     end
