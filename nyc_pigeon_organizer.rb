@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
     end
     solo_birds = bag_of_names.flatten.uniq
     solo_birds.to_str
+    solo_birds
     binding.pry
 
 end
