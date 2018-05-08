@@ -1,16 +1,10 @@
 require "pry"
 def nyc_pigeon_organizer(data)
 
-  bag_of_names = {}
+  new_struct = {}
 
   data.each do |category, info|
-    info.each do |color, name|
-
-      unless bag_of_names[name]
-        
-      end
-
-    end
+    binding.pryu
   end
 
 
