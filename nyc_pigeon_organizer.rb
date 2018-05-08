@@ -9,5 +9,5 @@ def nyc_pigeon_organizer(data)
     end
   end
   solo_birds = bag_of_names.flatten.uniq
-
+  binding.pry
 end
