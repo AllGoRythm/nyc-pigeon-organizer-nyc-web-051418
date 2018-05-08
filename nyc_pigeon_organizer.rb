@@ -9,8 +9,10 @@ def nyc_pigeon_organizer(data)
     info.each do |color, name|
 
       bag_of_names << name
-      binding.pry
+
     end
   end
 
+  bag_of_names.flatten.uniq
+  binding.pry
 end
