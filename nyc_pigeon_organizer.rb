@@ -1,17 +1,15 @@
 require "pry"
 def nyc_pigeon_organizer(data)
 
-    bag_of_names = []
+    pigeon_names = {}
 
     data.each do |category, info|
       info.each do |sub_cat, deet|
 
-        if data[:gender]
-
-          deet
-
-          binding.pry
-
+        if data[:gender][deet]
+          deet.select do |e|
+            pigeon_names["e"] << {subcat}
+          end
         end
 
       end
