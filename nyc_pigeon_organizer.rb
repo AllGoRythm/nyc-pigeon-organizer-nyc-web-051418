@@ -15,6 +15,6 @@ def nyc_pigeon_organizer(data)
     end
 
   end
-all_names
+solo_birds
 binding.pry
 end
