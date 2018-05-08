@@ -6,9 +6,10 @@ def nyc_pigeon_organizer(data)
     data.each do |category, info|
       info.each do |sub_cat, deet|
         deet.each do |name|
-            pigeon_names[name] = {}
-            pigeon_names[name][category] = []
-            pigeon_names[name][category] << sub_cat.to_s
+          
+            # pigeon_names[name] = {}
+            # pigeon_names[name][category] = []
+            # pigeon_names[name][category] << sub_cat.to_s
             binding.pry
         end
       end
