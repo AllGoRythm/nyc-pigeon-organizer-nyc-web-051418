@@ -4,7 +4,13 @@ def nyc_pigeon_organizer(data)
   new_struct = {}
 
   data.each do |category, info|
-    binding.pry
+
+    info.each do |sub_cat, name|
+
+      binding.pry
+
+    end
+
   end
 
 
