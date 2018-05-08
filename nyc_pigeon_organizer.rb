@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
             pigeon_names[name] = {}
             pigeon_names[name][sub_cat] = []
             pigeon_names[name][subcat] << subcat.to_s
+            binding.pry
         end
       end
     end
